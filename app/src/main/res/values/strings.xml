@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TPDM_U2_Practica1_DanielGonzalez</string>
+
+    <string name="editar">Editar</string>
+    <string name="borrar">Borrar</string>
+    <string name="marcarCompleto">Completar Todo</string>
+    <string name="resetear">Resetear</string>
+
+</resources>
