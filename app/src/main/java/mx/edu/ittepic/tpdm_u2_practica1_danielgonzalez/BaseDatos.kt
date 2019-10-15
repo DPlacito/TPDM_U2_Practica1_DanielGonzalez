@@ -37,7 +37,7 @@ class BaseDatos(val context: Context) : SQLiteOpenHelper(context, DB_NOMBRE, nul
                 "$LISTA_DESCRIPCION varchar (400));"
         val crear_TablaTareas =
             "CREATE TABLE $TABLE_TAREAS (" +
-                    "$LISTA_ID integer FOREIGN KEY," +
+                    "$LISTA_ID integer ," +
                     "$TAREAS_ID integer PRIMARY KEY AUTOINCREMENT," +
                     "$TAREAS_DESCRIPCION varchar (400)," +
                     "$TAREAS_REALIZADO integer);"
